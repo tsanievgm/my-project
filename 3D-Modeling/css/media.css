@@ -1,0 +1,303 @@
+/* Макет десктоп */
+
+@media (max-width: 1200px) {
+  
+/* home */
+
+  .home__title {
+    font-size: 50px;
+  }
+
+  .home__picture {
+    margin-left: 20px;
+  }
+
+/* benefits */
+
+  .benefits__item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .benefits__title_768px {
+    display: none;
+  }
+
+  .benefits-item__icon {
+    margin-bottom: 15px;
+  }
+
+  .course__text {
+    min-height: 376px;
+  }
+}
+
+/* Макет 768px */
+
+@media (max-width: 992px) {
+
+/* header */
+
+  .header__list {
+    gap: 57px;
+  }
+/* home */
+
+  .home {
+    padding-bottom: 5px;
+  }
+
+  .home__container {
+    align-items: flex-start;
+  }
+
+  .home__title {
+    margin-bottom: 16px;
+  }
+
+  .home__picture {
+    margin-left: 0;
+  }
+
+  .home__img {
+    margin-top: 0;
+    padding-top: 115px;
+  }
+
+/* benefits */
+
+  .benefits {
+    padding-top: 80px;
+    padding-bottom: 76px;
+  }
+
+  .benefits__top {
+    margin-bottom: 23px;
+  }
+
+  .benefits-top__img {
+    margin-right: 80px;
+  }
+
+  .benefits-item__icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+/* teachers */
+
+  .teachers {
+    padding-top: 71px;
+    padding-bottom: 50px;
+  }
+
+  .teachers__item:nth-child(1) {
+    margin-bottom: 1.6em;
+  }
+
+/* course */
+
+  .course-duration {
+    right: 10px;
+  }
+
+  .course__link {
+    padding: 23px 56px;
+  }
+
+}
+
+/* Макет 576px */
+
+@media (max-width: 767px) {
+
+
+  .header__nav {
+    flex-direction: column;
+  }
+
+  .header__link-logo {
+    align-self: center;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .home__title {
+    font-size: 50px;
+  }
+
+  .home__picture {
+    display: none;
+  }
+
+  .home__content {
+    padding-top: 80px;
+  }
+
+  .benefits {
+    padding-top: 80px;
+    padding-bottom: 56px;
+  }
+
+  .benefits-top__img {
+    min-width: 150px;
+    margin-right: 30px;
+    padding-top: 0;
+  }
+
+  /* teachers */
+
+  .teachers {
+    padding-bottom: 75px;
+  }
+
+
+  /* Поставлю временно высоту, так как иначе вся верстка ломается */
+  .teachers__img {
+    min-height: 180px; 
+  }
+
+  /* course */
+
+  .course__img {
+    min-height: 180px;
+  }
+
+  .course__text {
+    min-height: 473px;
+  }
+
+  .course__link {
+    padding: 23px 49px;
+  }
+  
+}
+
+/* Макет Mobile */
+
+@media (max-width: 575px) {
+
+/* header */
+
+  .header__container {
+    max-width: 290px;
+  }
+
+  .header__list {
+    max-width: 100%;
+    overflow-x: scroll;
+  }
+
+  .header__link-logo {
+    margin-bottom: 18px;
+  }
+
+
+/* home */
+
+  .home__container {
+    margin: 0;
+  }
+
+  .home__content {
+    padding-top: 51px;
+    padding-bottom: 45px;
+  }
+
+
+  .home__title {
+    font-size: 30px;
+    margin-bottom: 4px;
+  }
+
+  .home__descr {
+    margin-bottom: 46px;
+    font-size: 16px;
+    line-height: 1.26;
+  }
+
+  .home__link {
+    padding: 20px 49px;
+  }
+
+  /* benefits */
+
+  .benefits {
+    padding-top: 53px;
+    padding-bottom: 18px;
+  }
+
+  .benefits-top__img {
+    display: none;
+  }
+
+  .benefits__title {
+    margin-bottom: 3px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .benefits__list {
+    flex-direction: column;
+  }
+
+  .benefits__item {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .benefits-item__icon {
+    margin-right: 30px;
+    margin-bottom: 31px;
+  }
+
+  /* teachers */
+
+  .teachers {
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  .teachers__title {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .teachers__list {
+    gap: 30px;
+  }
+
+  .teachers__item:nth-child(1) {
+    margin-bottom: 0;
+  }
+
+  .teachers__img {
+    margin-bottom: 22px;
+  }
+
+
+  /* course */
+
+  .course {
+    padding-top: 45px;
+    padding-bottom: 20px;
+  }
+
+  .course__title {
+    font-size: 20px;
+  }
+
+  .course__list {
+    gap: 28px;
+  }
+
+  .course__link {
+    padding: 22px 56px;
+  }
+
+/* footer */
+
+  .footer {
+    padding-top: 30px;
+  }
+}

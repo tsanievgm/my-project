@@ -1,0 +1,629 @@
+/* 1440px - 1770px кастом */
+
+@media (max-width: 1770px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .order__container {
+    padding: 185px 80px;
+  }
+}
+
+
+/* 1201px - 1440px кастом */
+
+@media (max-width: 1440px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .order__container {
+    padding: 185px 80px;
+  }
+
+  .aboutus__content {
+    padding: 30px;
+  }
+
+
+  .aboutus-left__descr {
+    margin-right: 50px;
+  }
+
+  .aboutus__right {
+    gap: 40px;
+  }
+
+  .aboutus-right__top {
+    padding: 40px;
+  }
+
+  .aboutus-right__bottom {
+    padding: 50px;
+  }
+}
+
+/* ---------------------------------------- */
+
+/* Макет на 1024px // 1024px - 1200px*/
+
+@media (max-width: 1200px) {
+  /* common */
+
+  .container {
+    max-width: 924px;
+    width: 100%;
+  }
+
+  /* header */
+
+  .header {
+    padding-top: 26px;
+    padding-bottom: 20px;
+  }
+
+  .header-indent {
+    margin-bottom: 40px;
+  }
+
+  .header__link {
+    margin-right: 105px;
+  }
+
+  .nav__list {
+    --gap-nav: 60px;
+    margin-right: 105px;
+  }
+
+
+  /* order */
+
+  .order {
+    margin-bottom: 34px;
+  }
+
+  .order__container {
+    padding: 165px 77px;
+  }
+
+  .order__heading {
+    margin-bottom: 20px;
+    font-size: 60px;
+  }
+
+  .order__descr {
+    margin-bottom: 64px;
+    font-size: 20px;
+  }
+
+  /* about us */
+
+  .aboutus {
+    margin-bottom: 77px;
+  }
+
+  .aboutus__blocks {
+    flex-direction: column;
+  }
+
+  .aboutus__descr {
+    margin-bottom: 60px;
+  }
+
+  .aboutus__left {
+    width: 100%;
+    min-height: 640px;
+  }
+
+  .aboutus-left__descr {
+    max-width: 454px;
+    margin-right: 195px;
+  }
+
+  .aboutus__right {
+    width: 100%;
+  }
+
+  .aboutus-right__top {
+    padding: 65px 75px;
+  }
+
+  .aboutus-right__bottom {
+    padding: 64px 75px;
+  }
+
+  /* stages */
+
+  .stages {
+    margin-bottom: 80px;
+  }
+
+  .stages__blocks {
+    --gap-stages: 50px;
+  }
+
+  .stages__descr {
+    margin-bottom: 27px;
+  }
+
+  /* question */
+
+  .question {
+    margin-bottom: 74px;
+  }
+
+  .question__list {
+    flex-direction: column;
+  }
+
+  .question__item {
+    width: 100%;
+  }
+
+  /* footer */
+
+  .footer__container {
+    padding-top: 51px;
+  }
+
+  .footer__descr {
+    display: none;
+  }
+
+  .footer__left {
+    min-width: 251px;
+    margin-right: 130px;
+  }
+
+  .footer__nav {
+    margin-bottom: 60px;
+    margin-right: 0;
+  }
+
+  .footer__list {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .form {
+    margin-right: 0;
+  }
+
+  .form__btn {
+    padding: 20px 35px;
+  }
+}
+
+
+/* ---------------------------------------- */
+
+
+/* Макет на 768 // 768px - 1023px */
+
+@media (max-width: 1023px) {
+
+  /* common */
+
+  .container {
+    max-width: 668px;
+    width: 100%;
+  }
+
+  /* header */
+
+  .header {
+    padding-top: 19px;
+    padding-bottom: 10px;
+  }
+
+  .header__link {
+    margin-right: 44px;
+  }
+
+  .nav__list {
+    --gap-nav: 40px;
+    margin-right: 43px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+  }
+
+
+
+  /* order */
+
+  .order__container {
+    padding: 163px 40px;
+    border-radius: 24px;
+  }
+
+  .order__heading {
+    margin-bottom: 23px;
+    font-size: 50px;
+  }
+
+  .order__descr {
+    font-size: 18px;
+  }
+
+  /* about us */
+
+  .aboutus__left {
+    min-height: 650px;
+  }
+
+  .aboutus__content {
+    padding: 37px 39px;
+  }
+
+  .aboutus-left__descr {
+    margin-right: 47px;
+  }
+
+  .aboutus__right {
+    width: 100%;
+  }
+
+  .aboutus-right__top {
+    padding: 33px 36px 40px;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .aboutus-right__bottom {
+    padding: 27px 39px 40px;
+    gap: 16px;
+  }
+
+  /* stages */
+
+  .stages__blocks {
+    flex-direction: column;
+  }
+
+  .stages__img {
+    order: 1;
+    width: 100%;
+    max-height: 276px;
+    border-radius: 24px;
+    margin-bottom: 43px;
+  }
+
+  .stages__left {
+    order: 2;
+    width: 100%;
+  }
+
+  /* question */
+
+  .question {
+    margin-bottom: 80px;
+  }
+
+  .question__item {
+    width: 100%;
+    padding: 35px 25px 35px 40px;
+  }
+
+  /* footer */
+
+  .footer__container {
+    flex-direction: column;
+    padding-top: 51px;
+  }
+
+  .form {
+    order: 1;
+    max-width: 541px;
+  }
+
+  .form__btn {
+    padding: 20px 37px;
+  }
+
+
+  .footer__left {
+    order: 2;
+    margin-right: 0;
+  }
+
+  .footer__list {
+    display: none;
+  }
+
+  .footer__form {
+    margin-bottom: 50px;
+  }
+
+  .footer__nav {
+    margin-bottom: 0;
+  }
+
+  .footer__logo-link {
+    margin-bottom: 15px;
+  }
+}
+
+
+/* ---------------------------------------- */
+
+
+/* Макет на 320 // 320px - 767px */
+
+@media (max-width: 767px) {
+
+  /* common */
+
+  .container {
+    max-width: 290px;
+    padding: 0;
+  }
+
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 21px;
+  }
+
+  .section-indent {
+    margin-bottom: 60px;
+  }
+
+  .section-subtitle {
+    margin-bottom: 5px;
+  }
+
+
+  /* header */
+
+  .header {
+    padding-top: 17px;
+    padding-bottom: 35px;
+    border-radius: 0px 0px 16px 16px;
+  }
+
+  .header-indent {
+    margin-bottom: 19px;
+  }
+
+  .nav__list {
+    display: none;
+  }
+
+  .nav__search {
+    margin-right: 10px;
+  }
+
+  .nav__btn {
+    display: block;
+  }
+
+
+  /* order */
+
+  .order-indent {
+    margin-bottom: 60px;
+  }
+
+  .order__container {
+    border-radius: 16px;
+    padding: 60px 21px;
+    min-height: 308px;
+  }
+
+  .order__content {
+    align-items: center;
+  }
+
+  .order__heading {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .order__descr {
+    margin-bottom: 37px;
+    font-size: 12px;
+    font-family: 'MontserratSemiBold', sans-serif;
+    text-align: center;
+  }
+
+  .order__btn {
+    padding: 13px 27px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+
+  /* about us */
+
+
+  .aboutus__descr {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .aboutus__left {
+    position: static;
+    min-height: 200px;
+    background-image: none;
+  }
+
+  .aboutus__img {
+    display: block;
+    border-radius: 8px;
+  }
+
+  .aboutus__content {
+    position: static;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    background-color: transparent;
+  }
+
+
+  .aboutus-left__descr {
+    margin-right: 0;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-family: 'MontserratRegular', sans-serif;
+    color: #000;
+  }
+
+  .aboutus-left__link {
+    padding: 11px 41px;
+    border-radius: 8px;
+    font-size: 12px;
+    color: var(--color-F90);
+  }
+
+  .aboutus-right__top {
+    gap: 13px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    border: 0;
+  }
+
+  .aboutus__icon {
+    max-width: 64px;
+    max-height: 49px;
+  }
+
+  .section-subtitle {
+    font-size: 18px;
+    font-family: 'MontserratSemiBold', sans-serif;
+  }
+
+  .aboutus-right__descr {
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .aboutus-right__bottom {
+    gap: 13px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    border: 0;
+  }
+
+  /* stages */
+
+  .stages__img {
+    min-height: 160px;
+    margin-bottom: 22px;
+  }
+
+  .stages-left__heading {
+    margin-bottom: 14px;
+  }
+
+  .stages__descr {
+    font-size: 14px;
+    margin-bottom: 27px;
+  }
+
+  .stages__more-info {
+    display: flex;
+  }
+
+  .stages__more {
+    margin-right: 10px;
+    padding: 10px 44px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .stages__link {
+    padding: 10px 31px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  /* question */
+
+  .question {
+    margin-bottom: 64px;
+  }
+
+  .question__item {
+    padding: 0;
+    border: 0;
+  }
+
+  .question-item__heading {
+    font-size: 18px;
+    font-family: 'MontserratRegular', sans-serif;
+  }
+
+  .question-item__descr {
+    font-size: 14px;
+  }
+
+  /* footer */
+
+  .footer {
+    padding-bottom: 30;
+  }
+
+  .form {
+    margin: 0;
+    margin-bottom: 10px;
+    align-items: flex-start;
+    padding-top: 32px;
+  }
+
+  .form__heading {
+    font-size: 24px;
+    color: #CACACA;
+    margin-bottom: 20px;
+  }
+
+  .form__input-style {
+    padding: 16px 114px 16px 19px;
+    font-size: 14px;
+  }
+
+  .footer__textarea {
+    padding-bottom: 77px;
+    margin-bottom: 27px;
+  }
+
+  .form__bottom {
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 25px;
+  }
+
+  .form__btn {
+    order: 1;
+    font-size: 12px;
+    margin-right: 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .form__label {
+    order: 2;
+    font-size: 16px;
+  }
+
+  .footer__left {
+    align-items: center;
+  }
+
+  .footer__logo-link {
+    max-width: 131px;
+    max-height: 42px;
+  }
+
+  .footer__icon {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
