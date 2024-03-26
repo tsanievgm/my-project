@@ -265,7 +265,7 @@ img {
 .hero {
   padding-top: 113px;
   padding-bottom: 134px;
-  background-image: url(../img/hero/hero-back.jpg);
+  background-image: url(../img/02_hero/hero-back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -312,7 +312,7 @@ img {
   font-weight: 400;
   text-transform: uppercase;
   color: #787878;
-  background-image: url(../img/hero/secure.svg);
+  background-image: url(../img/02_hero/secure.svg);
   background-repeat: no-repeat;
   background-position-x: left center;
   background-size: 14px 17px;
@@ -602,15 +602,15 @@ img {
 }
 
 .contacts-item-address {
-  background-image: url(../img/contacts/visit.svg);
+  background-image: url(../img/06_contacts/visit.svg);
 }
 
 .contacts-item-call {
-  background-image: url(../img/contacts/cell.svg)
+  background-image: url(../img/06_contacts/cell.svg)
 }
 
 .contacts-item-email {
-  background-image: url(../img/contacts/email.svg)
+  background-image: url(../img/06_contacts/email.svg)
 }
 
 .contacts-item-caption {
