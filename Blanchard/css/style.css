@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSansRegular.woff');
+	src: local('OpenSansBold'), local('OpenSansBold'),
+		url('../fonts/OpenSansRegular.woff') format('woff'),
+    url('../fonts/OpenSansRegular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSansSemiBold.woff');
+	src: local('OpenSansBold'), local('OpenSansBold'),
+		url('../fonts/OpenSansSemiBold.woff') format('woff'),
+    url('../fonts/OpenSansSemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSansBold.woff');
+	src: local('OpenSansBold'), local('OpenSansBold'),
+		url('../fonts/OpenSansBold.woff') format('woff'),
+    url('../fonts/OpenSansBold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+  font-display: swap;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 1170px;
+  /* max-width: 100%; */
+  margin: 0 auto;
+}
+
+
+.header {
+  background-color: #000;
+}
+
+.hero {
+  background-image: url(../img/02_home/home.jpg);
+}
+
+.gallery {
+  background-image: url(../img/04_gallery/gallery-background.jpg);
+}
+
+.footer {
+  background-color: #000;
+}
