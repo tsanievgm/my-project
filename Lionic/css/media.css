@@ -1,5 +1,5 @@
 @media (max-width: 1200px) {
-  .form-input, 
+  .form-input,
   .form-select {
     width: 100%;
   }
@@ -93,7 +93,7 @@
   }
 
   .header__img {
-    width: 80px;  
+    width: 80px;
   }
 
   .hero__title {
@@ -136,7 +136,7 @@
   }
 
   .services-item-icon {
-    height: 42px;
+    min-height: 42px;
     margin-bottom: 15px;
   }
 
@@ -313,7 +313,7 @@
   .form-bottom-label {
     padding-right: 0;
   }
-  
+
 
 /* footer */
 
@@ -370,7 +370,7 @@
     position: relative;
     width: 100%;
     margin-right: 0;
-    margin-bottom: 18px;  
+    margin-bottom: 18px;
     padding-bottom: 24px;
   }
 
@@ -382,7 +382,7 @@
     width: calc(100% + 30px);
     height: 1px;
     background-color: #c4c4c4;
-  } 
+  }
 
   .footer__img {
     max-width: 80px;
@@ -397,7 +397,7 @@
 
   .footer__copy {
     display: inline-block;
-    width: 100%; 
+    width: 100%;
     text-align: center;
   }
 

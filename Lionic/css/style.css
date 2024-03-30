@@ -49,12 +49,12 @@ body {
   --gap: 30px;
 }
 
-a { 
+a {
   color: inherit;
   text-decoration: none;
 }
 
-img { 
+img {
   max-width: 100%;
 }
 
