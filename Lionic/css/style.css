@@ -401,13 +401,13 @@ img {
   border-bottom: 1px solid #DADADA;
 }
 
-.articles-list {
+.articles__list {
   --offsets: 1;
   gap: var(--gap);
   flex-wrap: wrap;
 }
 
-.articles-item {
+.articles__item {
   width: calc((100% - (var(--offsets) * var(--gap))) / (var(--offsets) + 1));
 }
 
@@ -418,28 +418,28 @@ img {
   border-radius: 5px;
 }
 
-.blog-preview-link {
+.blog-preview__link {
   height: 100%;
   transition: background-color .3s ease-in-out;
 }
 
-.blog-preview-link:focus {
+.blog-preview__link:focus {
   background-color: #71A7E2;
 }
 
-.blog-preview-link:hover {
+.blog-preview__link:hover {
   background-color: #3172B9;
 }
 
-.blog-preview-link:active {
+.blog-preview__link:active {
   background-color: #0E3B6C;
 }
 
-.blog-preview-img {
+.blog-preview__img {
   object-fit: cover;
 }
 
-.blog-preview-text {
+.blog-preview__text {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -447,26 +447,26 @@ img {
   padding: 30px;
 }
 
-.blog-preview-time {
+.blog-preview__time {
   font-size: 10px;
   display: block;
   margin-bottom: 5px;
   transition: color .3s ease-in-out;
 }
 
-.blog-preview-link:focus .blog-preview-time {
+.blog-preview__link:focus .blog-preview__time {
   color: #fff;
 }
 
-.blog-preview-link:hover .blog-preview-time {
+.blog-preview__link:hover .blog-preview__time {
   color: #fff;
 }
 
-.blog-preview-link:active .blog-preview-time {
+.blog-preview__link:active .blog-preview__time {
   color: #fff;
 }
 
-.blog-preview-title {
+.blog-preview__title {
   margin: 0;
   margin-bottom: 15px;
   font-weight: 600;
@@ -475,33 +475,33 @@ img {
   transition: color .3s ease-in-out;
 }
 
-.blog-preview-link:focus .blog-preview-title {
+.blog-preview__link:focus .blog-preview__title {
   color: #fff;
 }
 
-.blog-preview-link:hover .blog-preview-title {
+.blog-preview__link:hover .blog-preview__title {
   color: #fff;
 }
 
-.blog-preview-link:active .blog-preview-title {
+.blog-preview__link:active .blog-preview__title {
   color: #fff;
 }
 
-.blog-preview-desc {
+.blog-preview__desc {
   margin: 0;
   max-width: 210px;
   font-size: 14px;
   transition: color .3s ease-in-out;
 }
-.blog-preview-link:focus .blog-preview-desc {
+.blog-preview__link:focus .blog-preview__desc {
   color: #fff;
 }
 
-.blog-preview-link:hover .blog-preview-desc {
+.blog-preview__link:hover .blog-preview__desc {
   color: #fff;
 }
 
-.blog-preview-link:active .blog-preview-desc {
+.blog-preview__link:active .blog-preview__desc {
   color: #fff;
 }
 
@@ -666,7 +666,7 @@ img {
   text-align: center;
 }
 
-.joinus-desc__mobile {
+.joinus-desc-mobile {
   display: none;
 }
 
