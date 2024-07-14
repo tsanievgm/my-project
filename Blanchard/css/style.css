@@ -32,6 +32,7 @@
 	font-style: normal;
   font-display: swap;
 }
+/* //////////////////////////////////////////////////////////////// */
 
 		/* Common styles */
 
@@ -78,11 +79,17 @@ button {
 	display: flex;
 }
 
+/* //////////////////////////////////////////////////////////////// */
+
 		/* Header */
 
 
 .header {
-  background-color: #000;
+	background-color: #000;
+}
+
+.header__container {
+
 }
 
 .header__container {
@@ -97,17 +104,101 @@ button {
 	color: #fff;
 }
 
+.header__button {
+	min-width: 30px;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+
 		/* Hero */
 
 
 .hero {
-  background-image: url(../img/02_home/home.jpg);
+	background-image: url(../img/02_home/home.jpg);
 }
+
+.hero__container {
+
+}
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+		/* Aboutus */
+
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+		/* Gallery */
 
 .gallery {
-  background-image: url(../img/04_gallery/gallery-background.jpg);
+	background-image: url(../img/04_gallery/gallery-background.jpg);
 }
 
+.gallery__container {
+
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+		/* Catalog */
+
+.catalog__list {
+	flex-direction: column;
+}
+
+.catalog-item__img {
+	max-height: 470px;
+}
+
+.catalog-item__text {
+	flex-direction: column;
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+		/* Events */
+
+.events-item__article {
+	border: #cacaca 1px solid;
+}
+
+.events-item__text {
+	flex-direction: column;
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+		/* Projects */
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+		/* Contacts */
+
+.contacts__container {
+
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+		/* footer */
+
 .footer {
-  background-color: #000;
+	background-color: #000;
+}
+
+.footer__container {
+
 }

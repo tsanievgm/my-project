@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blanchard</title>
   <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
-  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -43,6 +43,28 @@
           <li class="header__item header-item">
             <a class="header-item__link" href="#contacts">Контакты</a>
           </li>
+
+					<!-- drop -->
+
+					<!-- <li class="header__item header-item">
+            <a class="header-item__link" href="#contacts">Контакты</a>
+          </li>
+
+					<li class="header__item header-item">
+            <a class="header-item__link" href="#contacts">Контакты</a>
+          </li>
+
+					<li class="header__item header-item">
+            <a class="header-item__link" href="#contacts">Контакты</a>
+          </li>
+
+					<li class="header__item header-item">
+            <a class="header-item__link" href="#contacts">Контакты</a>
+          </li>
+
+					<li class="header__item header-item">
+            <a class="header-item__link" href="#contacts">Контакты</a>
+          </li> -->
         </ul>
 
         <button class="header__button header-button">
@@ -59,7 +81,7 @@
     <!-- || Hero || -->
 
     <section class="hero">
-      <div class="container">
+      <div class="container hero__container">
         <h1 class="hero__title">Прикоснитесь к прекрасному</h1>
 
         <p class="hero__descr">Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий создаёт предпосылки для новых предложений</p>
@@ -81,34 +103,38 @@
     <!-- || Gallery || -->
 
     <section class="gallery" id="gallery">
-      <div class="container">
+      <div class="container gallery__container">
         <h2 class="gallery__title">Галерея</h2>
 
-        <form class="gallery__form gallery-form" action="#">
-          <label>
-            <input class="gallery-form" type="checkbox"> XIX век
-          </label>
+				<div class="gallery__content flex">
+					<form class="gallery__form gallery-form" action="#">
+						<label>
+							<input class="gallery-form" type="checkbox"> XIX век
+						</label>
 
-          <label>
-            <input class="gallery-form" type="checkbox"> XX век
-          </label>
+						<label>
+							<input class="gallery-form" type="checkbox"> XX век
+						</label>
 
-          <label>
-            <input class="gallery-form" type="checkbox"> Современность
-          </label>
-        </form>
+						<label>
+							<input class="gallery-form" type="checkbox"> Современность
+						</label>
+					</form>
 
-        <ul class="gallery__list">
-          <li class="gallery__item gallery-item">
-            <img class="gallery-item__img" src="img/04_gallery/gallery_01.jpg" alt="">
-          </li>
-          <li class="gallery__item gallery-item">
-            <img class="gallery-item__img" src="img/04_gallery/gallery_02.jpg" alt="">
-          </li>
-          <li class="gallery__item gallery-item">
-            <img class="gallery-item__img" src="img/04_gallery/gallery_03.jpg" alt="">
-          </li>
-        </ul>
+					<ul class="gallery__list flex">
+						<li class="gallery__item gallery-item">
+							<img class="gallery-item__img" src="img/04_gallery/gallery_01.jpg" alt="">
+						</li>
+
+						<li class="gallery__item gallery-item">
+							<img class="gallery-item__img" src="img/04_gallery/gallery_02.jpg" alt="">
+						</li>
+
+						<li class="gallery__item gallery-item">
+							<img class="gallery-item__img" src="img/04_gallery/gallery_03.jpg" alt="">
+						</li>
+					</ul>
+				</div>
       </div>
     </section>
 
@@ -120,38 +146,46 @@
 
         <p class="catalog__descr">Акционеры крупнейших компаний, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и морали. Являясь всего лишь частью общей картины, стремящиеся вытеснить традиционное производство, нанотехнологии и по сей день остаются уделом либералов, которые жаждут быть функционально разнесены на независимые элементы.</p>
 
-        <ul class="catalog__list">
+        <ul class="catalog__list flex">
           <li class="catalog__item catalog-item">
-            <article class="catalog-item__article">
+            <article class="catalog-item__article flex">
               <img class="catalog-item__img" src="img/05_catalog/catalog_01.jpg" alt="Доменико Гирландайо">
 
-              <h3 class="catalog-item__title">Доменико Гирландайо</h3>
+							<div class="catalog-item__text flex">
+								<h3 class="catalog-item__title">Доменико Гирландайо</h3>
 
               <time class="catalog-item__time" datetime="1448-07-02/1494-01-11">2 июня 1448–11 января 1494</time>
 
               <p class="catalog-item__descr">Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо. Глава художественной мастерской, где юный Микеланджело в течение года овладевал профессиональными навыками. Автор фресковых циклов, в которых выпукло, со всевозможными подробностями показана домашняя жизнь библейских персонажей (в их роли выступают знатные граждане Флоренции в костюмах того времени).</p>
+							</div>
             </article>
           </li>
+
           <li class="catalog__item catalog-item">
-            <article class="catalog-item__article">
+            <article class="catalog-item__article flex">
               <img class="catalog-item__img" src="img/05_catalog/catalog_02.jpg" alt="Андреа дель Верроккьо">
 
-              <h3 class="catalog-item__title">Андреа дель Верроккьо</h3>
+							<div class="catalog-item__text flex">
+								<h3 class="catalog-item__title">Андреа дель Верроккьо</h3>
 
               <time class="catalog-item__time" datetime="1435/1488-10-10">1435–10 октября 1488</time>
 
               <p class="catalog-item__descr">Творческий путь молодого Андреа, как и многих знаменитых художников и скульпторов эпохи Возрождения, начался с обучения и работы в одной из ювелирных мастерских Флоренции. Там он занимался не только изготовлением драгоценных украшений, но и познавал основы живописи, пластики и архитектуры. Его первым учителем был Джулиано Веррокки, фамилию которого в несколько изменённом виде Андреа заимствовал для своего будущего псевдонима.</p>
+							</div>
             </article>
           </li>
+
           <li class="catalog__item catalog-item">
-            <article class="catalog-item__article">
+            <article class="catalog-item__article flex">
               <img class="catalog-item__img" src="img/05_catalog/catalog_03.jpg" alt="Лоренцо ди Креди">
 
-              <h3 class="catalog-item__title">Лоренцо ди Креди</h3>
+							<div class="catalog-item__text flex">
+								<h3 class="catalog-item__title">Лоренцо ди Креди</h3>
 
               <time class="catalog-item__time" datetime="1459/1537-01-12">1459–12 января 1537</time>
 
               <p class="catalog-item__descr">Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо. Глава художественной мастерской, где юный Микеланджело в течение года овладевал профессиональными навыками. Автор фресковых циклов, в которых выпукло, со всевозможными подробностями показана домашняя жизнь библейских персонажей (в их роли выступают знатные граждане Флоренции в костюмах того времени).</p>
+							</div>
             </article>
           </li>
         </ul>
@@ -164,50 +198,58 @@
       <div class="container">
         <h2 class="events__title">События</h2>
 
-        <ul class="events__list">
+        <ul class="events__list flex">
           <li class="events__item events-item">
             <article class="events-item__article">
               <img class="events-item__img" src="img/06_events/event_01.jpg" alt="Музей им.Щусева">
 
-              <small class="events-item__event-name">Музей им. Щусева</small>
+							<div class="events-item__text flex">
+								<small class="events-item__event-name">Музей им. Щусева</small>
 
-              <time class="events-item__time">с 20 марта по 30 апреля</time>
+              	<time class="events-item__time">с 20 марта по 30 апреля</time>
 
-              <h3 class="events-item__title">Книжная гравюра в живом восприятии</h3>
+              	<h3 class="events-item__title">Книжная гравюра в живом восприятии</h3>
 
-              <p class="events-item__descr">Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо</p>
+              	<p class="events-item__descr">Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо</p>
 
-              <a class="events-item__link" href="">Подробнее</a>
+              	<a class="events-item__link" href="">Подробнее</a>
+							</div>
             </article>
           </li>
+
           <li class="events__item events-item">
             <article class="events-item__article">
               <img class="events-item__img" src="img/06_events/event_02.jpg" alt="Музей им.Щусева">
 
-              <small class="events-item__event-name">ММОМА</small>
+							<div class="events-item__text flex">
+								<small class="events-item__event-name">ММОМА</small>
 
-              <time class="events-item__time">24 марта 19:00</time>
+								<time class="events-item__time">24 марта 19:00</time>
 
-              <h3 class="events-item__title">«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.</h3>
+								<h3 class="events-item__title">«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.</h3>
 
-              <p class="events-item__descr">Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством простого факта</p>
+								<p class="events-item__descr">Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством простого факта</p>
 
-              <a class="events-item__link" href="">Подробнее</a>
+								<a class="events-item__link" href="">Подробнее</a>
+							</div>
             </article>
           </li>
+
           <li class="events__item events-item">
             <article class="events-item__article">
               <img class="events-item__img" src="img/06_events/event_03.jpg" alt="Музей им.Щусева">
 
-              <small class="events-item__event-name">Еврейский музей</small>
+							<div class="events-item__text flex">
+								<small class="events-item__event-name">Еврейский музей</small>
 
-              <time class="events-item__time">с 31 марта по 21 апреля</time>
+								<time class="events-item__time">с 31 марта по 21 апреля</time>
 
-              <h3 class="events-item__title">Выставка «Формация 2020»</h3>
+								<h3 class="events-item__title">Выставка «Формация 2020»</h3>
 
-              <p class="events-item__descr">Идейные соображения высшего порядка, а также современная методология разработки играет важную роль в формировании глубокомысленных рассуждений</p>
+								<p class="events-item__descr">Идейные соображения высшего порядка, а также современная методология разработки играет важную роль в формировании глубокомысленных рассуждений</p>
 
-              <a class="events-item__link" href="">Подробнее</a>
+								<a class="events-item__link" href="">Подробнее</a>
+							</div>
             </article>
           </li>
         </ul>
@@ -224,10 +266,11 @@
 
         <h3 class="projects__subtitle">Партнёры проектов:</h3>
 
-        <ul class="projects__list">
+        <ul class="projects__list flex">
           <li class="projects__item projects-item">
             <img class="projects-item__img" src="img/07_projects/project_01.png" alt="Freelands Foundation">
           </li>
+
           <li class="projects__item projects-item">
             <img class="projects-item__img" src="img/07_projects/project_02.png" alt="Institure for Contemporary Art">
           </li>
@@ -238,14 +281,14 @@
     <!-- || Contacts || -->
 
     <section class="contacts" id="contacts">
-      <div class="container">
+      <div class="container contacts__container flex">
         <div class="contacts__left contacts-left">
           <h3 class="contacts-left__subtitle">Шоурум № 4</h3>
 
           <address class="contacts-left__address">Леонтьевский переулок, дом 5/1</address>
         </div>
 
-        <form class="contacts__form contacts-form form" action="#">
+        <form class="contacts__form contacts-form form flex" action="#">
           <input class="contacts-form" type="text" placeholder="Имя*" required>
 
           <input class="contacts-form" type="phone" placeholder="Телефон*" required>
@@ -253,10 +296,10 @@
           <a class="contacts-form__link" href="">Заказать обратный звонок</a>
         </form>
 
-        <div class="contacts__right contacts-right">
+        <div class="contacts__right contacts-right flex">
           <h3 class="contacts-right__subtitle">Связаться в один клик</h3>
 
-          <ul class="contacts-right__list">
+          <ul class="contacts-right__list flex">
             <li class="contacts-right__item">
               <svg class="contacts-right__icon" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path d="M20 39.375c10.7 0 19.375-8.674 19.375-19.375C39.375 9.3 30.701.625 20 .625 9.3.625.625 9.299.625 20 .625 30.7 9.299 39.375 20 39.375Z" fill="#30BF39"/><path d="M25.875 21.751c-.25-.125-1.563-.875-1.813-.938-.25-.124-.437-.124-.625.126-.187.25-.75.875-.875 1-.187.187-.312.187-.562.062-.25-.125-1.125-.438-2.125-1.438-.75-.75-1.313-1.624-1.438-1.937-.125-.25 0-.438.125-.563.125-.124.25-.312.438-.437.187-.125.187-.25.312-.438.125-.187.063-.312 0-.5-.062-.187-.562-1.5-.75-2.062-.187-.563-.437-.438-.562-.5-.188 0-.313-.063-.5-.063-.25 0-.563.125-.75.313-.25.25-1 .875-1 2.188 0 1.312.875 2.687 1 2.812.125.188 1.75 3.063 4.437 4.25 2.688 1.188 2.688.813 3.188.813S26 23.814 26.25 23.25c.25-.625.25-1.188.187-1.25-.125 0-.312-.063-.562-.25Zm-5 6.438c-1.75 0-3.375-.5-4.813-1.438l-3.375 1.063 1.125-3.25c-1.062-1.5-1.687-3.313-1.687-5.188a8.802 8.802 0 0 1 8.812-8.813c4.875 0 8.75 3.938 8.75 8.813a8.802 8.802 0 0 1-8.812 8.813Zm0-19.376c-5.813 0-10.563 4.75-10.563 10.563 0 1.938.5 3.813 1.5 5.438L9.875 30.5l5.875-1.875c1.562.875 3.312 1.313 5.125 1.313 5.812 0 10.562-4.75 10.562-10.563 0-5.813-4.687-10.563-10.562-10.563Z" fill="#fff"/></g><defs><clippath id="a"><path fill="#fff" d="M0 0h40v40H0z"/></clippath></defs></svg>
             </li>
@@ -273,12 +316,12 @@
 <!-- || footer || -->
 
   <footer class="footer">
-    <div class="container">
+    <div class="container footer__container flex">
       <a class="footer__link" href="">
         <img class="footer__logo" src="img/01_header/logo.svg" alt="Logo">
       </a>
 
-      <ul class="footer__list">
+      <ul class="footer__list flex">
         <li class="footer__item footer-item">
           <svg class="footer-item__logo" width="45" height="45" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.279 14.986a3.359 3.359 0 1 0 6.718 0 3.359 3.359 0 0 0-6.718 0Z" fill="#CACACA"/><path fill-rule="evenodd" clip-rule="evenodd" d="M22.5 45C34.926 45 45 34.926 45 22.5S34.926 0 22.5 0 0 10.074 0 22.5 10.074 45 22.5 45Zm-7.988-30.014a8.125 8.125 0 1 1 16.251 0 8.125 8.125 0 0 1-16.25 0Zm16.3 12.305c-.103.083-2.053 1.623-5.306 2.286l4.91 4.866a2.21 2.21 0 1 1-3.122 3.127l-4.766-4.642-4.33 4.612a2.202 2.202 0 0 1-1.59.676 2.21 2.21 0 0 1-1.59-3.743l4.66-4.87c-3.344-.648-5.374-2.228-5.479-2.312a2.21 2.21 0 0 1 2.765-3.447c.02.016 2.143 1.61 5.564 1.613 3.42-.002 5.5-1.597 5.52-1.613a2.21 2.21 0 0 1 2.764 3.447Z" fill="#CACACA"/></svg>
         </li>
